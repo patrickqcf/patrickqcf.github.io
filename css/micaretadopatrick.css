@@ -1,0 +1,32 @@
+.carouselColor{
+    background: cornflowerblue;
+}
+html{
+    background: black;
+}
+body {
+    background: black;
+}
+.container{
+    background: yellowgreen;
+}
+.col-sm-3 {   
+    position:      relative;
+    background:  cyan;
+    color:       darkblue;
+    word-wrap:     break-word;
+    padding-top:   1%;
+    padding-left:  3%;
+    padding-right: 3%;
+}
+.footer {
+    background: green;
+  }
+.icon {
+    align-self: flex-end;
+    background: white;
+}
+.carousel-inner > .carousel-item > img {
+    align-self: center;
+    margin: 0 auto;
+  }
