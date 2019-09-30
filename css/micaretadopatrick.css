@@ -41,6 +41,9 @@ body {
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
+  .marketing {
+    justify-content: center;
+  }
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -59,6 +62,7 @@ body {
   
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    color: gainsboro;
   }
   
   /* Thin out the marketing headings */
@@ -90,4 +94,73 @@ body {
       margin-top: 7rem;
     }
   }
+  /* Relógio */
+  .clock {
+    height: 20vh;
+    color: white;
+    font-size: 16vh;
+    font-family: sans-serif;
+    line-height: 20.4vh;
+    display: flex;
+    position: relative;
+    /*background: green;*/
+    overflow: hidden;
+  }
+
+  .dias{
+    height: 20vh;
+    color: white;
+    font-size: 16vh;
+    font-family: sans-serif;
+    line-height: 20.4vh;
+    display: flex;
+    position: relative;
+    /*background: green;*/
+    overflow: hidden;
+  }
+  .dias > .escrito {
+    padding-left: 2%;
+    text-align: center;
+  }
+  
+  .clock::before, .clock::after {
+    content: '';
+    width: 7ch;
+    height: 3vh;
+    background: linear-gradient(to top, transparent, black);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .clock::after {
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, black);
+  }
+  
+  .clock > div {
+    display: flex;
+  }
+  
+  .tick {
+    line-height: 17vh;
+  }
+  
+  .tick-hidden {
+    opacity: 0;
+  }
+  
+  .move {
+    animation: move linear 1s infinite;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateY(0vh);
+    }
+    to {
+      transform: translateY(-20vh);
+    }
+  }
+  /* /relógio */
+  
   
