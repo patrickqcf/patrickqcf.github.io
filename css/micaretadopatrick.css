@@ -107,9 +107,9 @@ body {
 
     height: 20vh;
     color: white;
-    font-size: 10vh;
+    font-size: 8vh;
     font-family: sans-serif;
-    line-height: 20.4vh;
+    line-height: 15.4vh;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -125,11 +125,11 @@ body {
     align-items: center;
     justify-content: center;
 
-    height: 20vh;
+    height: 10vh;
     color: white;
-    font-size: 10vh;
+    font-size: 8vh;
     font-family: sans-serif;
-    line-height: 20.4vh;
+    line-height: 15.4vh;
     position: relative;
     overflow: hidden;
   }
@@ -208,5 +208,5 @@ body {
 }
 
 .partner{
-  border-radius: 50%;
+  border-radius: 30px/10px;
 }
