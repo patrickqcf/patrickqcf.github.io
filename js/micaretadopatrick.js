@@ -46,12 +46,9 @@ var contador = setInterval(function() {
   $('.segundo1').html(seconds.toString().substring(0,1));
   $('.segundo2').html(seconds.toString().substring(1,2));
 
-  $('#countdownTimer').html(days + "d " + hours + ":"  + minutes + ":" + seconds);
-
 
   if (distance < 0) {
     clearInterval(contador);
-    $('#countdownTimer').html("ACREDITE NOS SEUS SONHOS");
   }
 }, 1000);
 
