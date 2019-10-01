@@ -195,3 +195,18 @@ body {
  .spanCenter{
    display: inherit;
  }
+ .mapPos{
+   display : contents;
+ }
+ .map-responsive iframe{
+  float: right;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position: relative;
+}
+
+.partner{
+  border-radius: 50%;
+}
