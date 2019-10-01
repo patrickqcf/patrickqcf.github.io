@@ -26,7 +26,7 @@ body {
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
-    background-color: #777;
+    /* background-color: #777; */
   }
   .carousel-item > img {
     position: absolute;
@@ -96,15 +96,18 @@ body {
   }
   /* Relógio */
   .clock {
-    height: 20vh;
+    height: 30vh;
     color: white;
-    font-size: 16vh;
+    font-size: 14vh;
     font-family: sans-serif;
-    line-height: 20.4vh;
-    display: flex;
+    /* line-height: 20.4vh; */
+    /* display: flex; */
     position: relative;
     /*background: green;*/
     overflow: hidden;
+    padding-left: -5%;
+    padding-right: -5%;
+    
   }
 
   .dias{
@@ -113,7 +116,7 @@ body {
     font-size: 16vh;
     font-family: sans-serif;
     line-height: 20.4vh;
-    display: flex;
+    /* display: flex; */
     position: relative;
     /*background: green;*/
     overflow: hidden;
@@ -163,4 +166,11 @@ body {
   }
   /* /relógio */
   
-  
+  .containerClock {
+    text-align: center;
+  }
+  .banner {
+    background-size: 100%;
+    pointer-events: none;
+  }
+ 

@@ -23,8 +23,22 @@ var contador = setInterval(function() {
       days ="0" + days;
   }
 
-  $('.dia1').html(days.toString().substring(0,1));
-  $('.dia2').html(days.toString().substring(1,2));
+  var diaDesc;
+
+  if(days.toString() == '01'){
+    diaDesc = 'DIA';
+    $('.dia1').html(days.toString().substring(0,1));
+    $('.dia2').html(days.toString().substring(1,2));
+    $('.diasDescricao').html(diaDesc);
+  } else if( days.toString().substr(0,2) == "0-" || days.toString() == "NaN"){
+    $('.diasDescricao').hide();
+  } else {
+    diaDesc = 'DIAS'
+    $('.dia1').html(days.toString().substring(0,1));
+    $('.dia2').html(days.toString().substring(1,2));
+    $('.diasDescricao').html(diaDesc);
+  }
+
   $('.hora1').html(hours.toString().substring(0,1));
   $('.hora2').html(hours.toString().substring(1,2));
   $('.minuto1').html(minutes.toString().substring(0,1));
@@ -40,3 +54,7 @@ var contador = setInterval(function() {
     $('#countdownTimer').html("ACREDITE NOS SEUS SONHOS");
   }
 }, 1000);
+
+$( document ).ready(function() {
+  console.log( "ready!" );
+});
