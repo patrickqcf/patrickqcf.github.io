@@ -1,3 +1,9 @@
+$('.modal').modal('show');
+setTimeout(function () {
+    $('.modal').modal('hide')
+}, 3000);
+
+$( document ).ready(function() {
 var countDownDate = new Date("Oct 26, 2019 00:00:00").getTime();
 
 var contador = setInterval(function() {
@@ -52,6 +58,4 @@ var contador = setInterval(function() {
   }
 }, 1000);
 
-$( document ).ready(function() {
-  console.log( "ready!" );
 });

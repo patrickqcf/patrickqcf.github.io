@@ -2978,7 +2978,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 }
 
 .fade {
-    transition: opacity .15s linear
+    transition: opacity .45s linear
 }
 
 @media (prefers-reduced-motion:reduce) {

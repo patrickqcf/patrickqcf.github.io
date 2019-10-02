@@ -113,6 +113,7 @@ body {
     position: relative;
     overflow: hidden;
     text-align: center;
+    pointer-events: none;
     
   }
 
@@ -132,6 +133,7 @@ body {
     line-height: 15.4vh;
     position: relative;
     overflow: hidden;
+    pointer-events: none;
   }
   .dias > .escrito {
     padding-left: 2%;
@@ -209,4 +211,29 @@ body {
 
 .partner{
   border-radius: 30px/10px;
+  height: 200px;
+  width : 300px;
+}
+
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+  width: 98%;
+  height: 99%;
+  padding: 0;
+}
+
+.imgModal {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.row > .count{
+  pointer-events: none;
 }
