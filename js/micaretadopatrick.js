@@ -1,7 +1,8 @@
 $('.modal').modal('show');
 setTimeout(function () {
+    $('.modal').addClass('fade');
     $('.modal').modal('hide')
-}, 3000);
+}, 4500);
 
 $( document ).ready(function() {
 var countDownDate = new Date("Oct 26, 2019 00:00:00").getTime();
@@ -57,5 +58,19 @@ var contador = setInterval(function() {
     clearInterval(contador);
   }
 }, 1000);
+
+  $('.playlist').click(function () {
+    var accessToken = "BQC0RabC-Le3gvZQV8xj-OGZ_z9dLlahPn-kh10C208NxTd8TXZ66nzvbXXYC8dV1RDeoVwfAJZkpJSZPeuOuzzxDTnzswRBBvEH_nAJMQ1kLcDftTkIEiQj7GUL4IgfKaSybghn30IKYzAp68w";
+    $.ajax({
+      url: 'https://api.spotify.com/v1/playlists/6zvlYydEIPpeCEx6Ijpxqg',
+      type: 'GET',
+      headers: {
+      'Authorization': 'Bearer ' + accessToken
+    },
+      success: function (data) {
+        console.log(data);
+      }
+    });
+});
 
 });
