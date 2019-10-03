@@ -59,18 +59,4 @@ var contador = setInterval(function() {
   }
 }, 1000);
 
-  $('.playlist').click(function () {
-    var accessToken = "BQC0RabC-Le3gvZQV8xj-OGZ_z9dLlahPn-kh10C208NxTd8TXZ66nzvbXXYC8dV1RDeoVwfAJZkpJSZPeuOuzzxDTnzswRBBvEH_nAJMQ1kLcDftTkIEiQj7GUL4IgfKaSybghn30IKYzAp68w";
-    $.ajax({
-      url: 'https://api.spotify.com/v1/playlists/6zvlYydEIPpeCEx6Ijpxqg',
-      type: 'GET',
-      headers: {
-      'Authorization': 'Bearer ' + accessToken
-    },
-      success: function (data) {
-        console.log(data);
-      }
-    });
-});
-
 });
