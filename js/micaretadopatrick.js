@@ -5,7 +5,7 @@ setTimeout(function () {
 }, 4500);
 
 $( document ).ready(function() {
-var countDownDate = new Date("Oct 26, 2019 00:00:00").getTime();
+var countDownDate = new Date("Oct 26, 2019 17:00:00").getTime();
 
 var contador = setInterval(function() {
 
