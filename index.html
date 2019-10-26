@@ -1,281 +1,91 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <!-- IMPORTS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/micaretadopatrick.css">
-    <!-- IMPORTS -->
-
-    <meta http-equiv="content-type" content="text/html" ; charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SEU MUNDINHO VAI SE ABALAR</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
+	<title>TITLE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+		
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<link href="css/responsive.css" rel="stylesheet">
+	
 </head>
-
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="index.html">Micareta do Patrickão</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"> <i class="fas fa-home    "></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#eventoFB"> <i class="fab fa-facebook    "></i></i> Evento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#map"> <i class="fas fa-map    "></i> Como Chegar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link playlist" href="https://open.spotify.com/playlist/6zvlYydEIPpeCEx6Ijpxqg" target="_BLANK"><i class="fab fa-spotify    "></i> Playlist</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#partners"> <i class="fas fa-people-carry    "></i> Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer"> <i class="fas fa-mail-bulk    "></i> Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main role="main" class="container-fluid">
-        <div class="row banner justify-content-center">
-            <img src="img/banner1.jpg" class="img-fluid" alt="MICARETA DO PATRICKAO">
-        </div>
-        
-        <!-- relógio -->
-        <div class="container " >
-            <div class="row count">
-                <div class="col-lg-12 col-12-auto">
-                    <span class="dias">
-                        <span class="hours">
-                            <span class="number dia1"></span> 
-                        </span>
-                        <span class="second">
-                            <span class="number dia2"></span>
-                        </span>
-                        <span class="dias escrito">
-                            <span class="diasDescricao"></span>
-                        </span>
-                    </span>
-                </div>
-            </div>
-            <div class="row count">
-                <div class="col-lg-12 col-12-auto">
-                    <div class="clock">
-                            <span class="hours">
-                                <span class="first">
-                                    <span class="number hora1"></span>
-                                </span>
-                                <span class="second">
-                                    <span class="number hora2"></span>
-                                </span>
-                            </span>
-                            <span class="tick">:</span>
-                            <span class="minutes">
-                                <span class="first">
-                                    <span class="number minuto1"></span>
-                                </span>
-                                <span class="second">
-                                    <span class="number minuto2"></span>
-                                </span>
-                            </span>
-                            <span class="tick">:</span>
-                            <span class="seconds">
-                                <span class="first">
-                                    <span class="number segundo1"></span>
-                                </span>
-                                <span class="second infinite">
-                                    <span class="number segundo2"></span>
-                                </span>
-                            </span>
-                        </span>
-                    </div>
-                </div>
-                <!-- /relógio -->
-<br>
-<br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p> <h3 style="text-align: left">&nbsp;&nbsp;FOI ANUNCIADO FERIADO NACIONAL NO DIA 26 DE OUTUBRO, MEU ANIVERSÁRIO. VÁ DAR SIGNIFICADO
-                    A SUA VIDA INÚTIL E FAZER O QUE HÁ DE MELHOR, BEBER E TROCAR SOCO NA AMIZADE</h3> </p>
-                    
-                    <p> <h3 style="text-align: left">&nbsp;&nbsp;O DIA MAIS ESPERADO DO ANO, SEU MUNDINHO VAI SE ABALAR NO SOM DO MELHOR QUE O BRASIL TEM PRA OFERECER,
-                        COLA NO EVENTO VALE TUDO MENOS DESRESPEITAR A LEI DE GIL, CUMPRIMENTA O ANIVERSARIANTE E VAI PERDER OS SENTIDOS.</h3> </p>
-                </div>
+	
+	<div class="main-area">
+		<div class="container full-height position-static">
+			
+			<section class="left-section full-height">
+		
+				<div class="display-table">
+					<div class="display-table-cell">
+						<div class="main-content">
+							<h1 class="title"><b>Sob Desenvolvimento</b></h1>
+							<p>
+								Página para espera de novos projetos para serem exibidos. ;)
+							</p>
 
-            </div>
-            <div class="row featurette" >
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-directions    "></i>
-                    <h2>Local</h2>
-                    <p>Se você viveu numa caverna do Rio de Janeiro ou não tem QI o suficiente para procurar um local no Google Maps, clique na seção COMO CHEGAR
-                        para ir ao FOR DUMMIES de como chegar, INTEGRADO AO SEU LIXO DE SMARTPHONE.
-                    </p>
-                </div>
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-beer    "></i>
-                    <h2>Cerveja</h2>
-                    <p>Fornecido pelo nosso parceiro, Pagode do Aroldo, vai ter promoção pra você degustar o néctar dos Deuses com sua boca profana, recomendamos 
-                        tomar em doses cavalares!
-                    </p>
-                </div>
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-address-card    "></i>
-                    <h2>Documentação</h2>
-                    <p>Sempre ande com a porcaria da sua identidade, não sabemos quem é você e é um evento para a família tradicional brasileira.
-                        Não vai ter portaria, é uma praça pública seu animal, se você não levar é um problema seu!
-                    </p>
-                </div>
-            </div>
-            <div class="row featurette" >
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-coins    "></i>
-                    <h2>Fichas de Troca</h2>
-                    <p>
-                        Você passa o mês inteiro trabalhando que nem um cachorro pra receber uns papéis no final do mês, SABE O QUE VOCÊ PODE FAZER COM ESSE PAPEL CHAMADO
-                        DINHEIRO NO EVENTO? TROCAR POR CERVEJA E CARNE, A MARAVILHA CAPITALISTA DA HUMANIDADE BASEADA NUM SISTEMA DE TROCAS, VOCÊ DÁ ESSE PAPEL SUJO E LEVA CERVEJA, PERFEITO.
-                    </p>
-                </div>
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-chart-pie    "></i>
-                    <h2>Benefícios</h2>
-                    <p>Provado cientificamente, o aniversário do Patrick causa bem estar alimentar, mental, muscular, retira do SPC-SERASA, livra dívida de agiota, resolve problemas
-                        com a sociedade, ecologicamente correto, diminui a criminalidade e diversos outros que não conseguimos imaginar, ESSA PORRA É QUASE UMA ONG.
-                    </p>
-                </div>
-                <div class="col-lg-4" >
-                    <i class="fas fa-3x fa-user-friends    "></i>
-                    <h2>Amizade.</h2>
-                    <p>
-                        Sua oportunidade de sair desse quartinho mal iluminado para ver o MUNDO e ter interação social com pessoas que nem você e nem eu conhecemos.
-                        Trocação de soco liberada, A NOITE INTEIRA.
-                    </p>
-                </div>
-            </div>
-        </div>
-<br>
-<br>        
-        <div id="eventoFB" class="container">
-            <div class="row featurette">
-                <div class="col-lg-12">
-                    <i class="fab fa-3x fa-facebook    "></i>
-                    <h2>Evento</h2>
-                    <p>
-                        Faça parte do nosso evento naquela plataforma social famosinha e compartilhe aquela merda. 
-                        Você entrou pra história, o maior feriado mundial da galáxia, convide seus pseudo-amigos e bora beber porra!
-                        Às 17H, levar presente está liberado!
-                    </p>
-                    <a href="http://www.facebook.com/events/491867581402313/?ti=cl" target="_BLANK"><button class="btn-dark">Ir para evento</button></a>
-                </div>
-            </div>
-        </div>
-<br>
-<br>
-        <div id="map" class="container">
-            <div class="row featurette">
-                <div class="col-lg-12">
-                    <i class="fas fa-3x fa-map-marked    "></i>
-                    <h2>Como Chegar</h2>
-                    <p>
-                        Pegue um transporte público de sua preferência do nosso maravilhoso Rio de Janeiro em direção à Coelho Neto, OU CLIQUE NO MAPA E VEJA COMO CHEGAR SEU ANIMAL.
-                    </p>
-                </div>
-            </div>
-            <!-- Google Maps -->
-            <div class="row featurette">
-                    <div class="col-lg-12 map-responsive">
-                        <iframe
-                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Praça+Coelho+Neto"
-                            width="800" height="600" frameborder="0" style="border:0">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-            <!-- Google Maps -->
-<br>
-<br>
-
-         <div id="partners" class="container">
-            <div class="row featurette">
-                 <div class="col-lg-12">
-                     <i class="fas fa-3x fa-people-carry    "></i>
-                     <h2>Parceiros</h2>
-                 </div>
-            
-            </div>
-
-            <div class="row featurette">
-                <div class="col-lg-4">
-                    <img class="partner img-fluid" src="img/rj.png">
-                    <h2>Governo do Estado</h2>
-                    <p>Por não fazer mais do que a sua obrigação e manter a praça de Coelho Neto habitável.</p>
-                </div>
-                <div class="col-lg-4">
-                    <img class="partner" src="img/churraskinho.png">
-                    <h2>Churraskinho</h2>
-                    <p>O melhor churrasco do continente, você nem ao menos é digno de saborear as iguarias deste local, que serviu
-                        à próprio Zeus no monte Olimpo, conhece a SANTA CEIA? Eles fizeram o buffet.</p>
-                    <a href="https://www.facebook.com/churraskinhocarioca/" target="_BLANK"><button class="btn-dark">Visitar</button></a>
-                </div>
-                <div class="col-lg-4">
-                    <img class="partner img-fluid" src="img/jamaica.png">
-                    <h2>Jamaica</h2>
-                    <p>Nos deu Bob Marley, sem mais.</p>
-                </div>
-            </div>
-
-         </div>
-<br>         
-<br>
-
-        <hr class="featurette-divider">
-
-        <div class="modal" id="overlay">
-            <div class="modal-dialog modal-full">
-                <img src="img/bannerIntro.jpg" class="img-fluid imgModal">
-            </div>
-        </div>
-
-
-
-        <footer id="footer" class="container">
-                <div class="col-lg-12 featurette">
-                    <i class="fas fa-3x fa-mail-bulk    " style="color:gray"></i> <h2 style="color:gray">Contato</h2>
-                </div>
-                <div class="col-lg-12 featurette">
-                    <a href="https://www.linkedin.com/in/patrick-fernandez-8107b3163/" target="_BLANK"><i class="fab fa-2x fa-linkedin  white"></i></a>
-                    <a href="https://www.facebook.com/patrick.fernandez.3110" target="_BLANK"><i class="fab fa-2x fa-facebook  white"></i></a>
-                    <a href="https://www.instagram.com/pfernandez92/" target="_BLANK"><i class="fab fa-2x fa-instagram white"></i></a>
-                    <a href="https://github.com/patrickqcf" target="_BLANK"><i class="fab fa-2x fa-github    white"></i></a>
-                </div>
-        </footer>
-    </main>
+						</div><!-- main-content -->
+					</div><!-- display-table-cell -->
+				</div><!-- display-table -->
+				
+				<ul class="footer-icons">
+					<li>Me encontre: </li>
+					<li><a href="https://github.com/patrickqcf"><i class="ion-social-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/patrick-fernandez-8107b3163/"><i class="ion-social-linkedin"></i></a></li>
+				</ul>
+		
+			</section><!-- left-section -->
+		
+			<section class="right-section" style="background-image: url(images/patrick-king.jpeg)">
+			
+				<div class="display-table center-text">
+					<div class="display-table-cell">
+						
+						
+						<div id="rounded-countdown">
+							<div class="countdown" data-remaining-sec="31536000"></div>
+						</div>
+						
+					</div><!-- display-table-cell -->
+				</div><!-- display-table -->
+				
+			</section><!-- right-section -->
+		
+		</div><!-- container -->
+	</div><!-- main-area -->
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.1.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/jquery.classycountdown.js"></script>
+	
+	<script src="common-js/jquery.knob.js"></script>
+	
+	<script src="common-js/jquery.throttle.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
-<!-- IMPORTS -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/holder.min.js"></script>
-<script src="js/all.min.js"></script>
-<script src="js/micaretadopatrick.js"></script>
-<!-- IMPORTS -->
-
 </html>
