@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'imbplexserif';
+    src: url('font/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf') format('truetype');
+  }  
+.bodycontent{
+    font-family: 'imbplexserif';
+    border:none;
+    margin: auto;
+    padding : 0px;
+    color: #818181;
+}
+.bodycontentfooter{
+    font-size: 12px;
+    font-family: 'imbplexserif';
+    border:none;
+    margin: auto;
+    padding : 0px;
+    color: #818181;
+}
+.bodycontentfood{
+    text-align: center;
+    border:none;
+    margin: auto;
+    padding : 0px;
+    color: white;
+}
+.bodycontentfood img{
+    max-height: 500px;
+    max-width: 350px;
+    min-height: 500px;
+    min-width: 350px;
+    width: inherit;
+    height: inherit;
+}
+
+.bodycontentpeople{
+    text-align: center;
+    border:none;
+    margin: auto;
+    padding : 0px;
+    color: white;
+}
+.bodycontentpeople img{
+    max-height: 500px;
+    max-width: 350px;
+    min-height: 500px;
+    min-width: 350px;
+    width: inherit;
+    height: inherit;
+}
+
+.navitemwill{
+    color: #818181;
+    font-family: 'imbplexserif';
+    text-align: center;
+
+}
+.navitemwillicon{
+    color: #818181;
+    text-align: center;
+}
+.navitemwill:hover{
+    color: #6F87D4;
+}
+.navitemwillicon:hover{
+    color: #6F87D4;
+}
+.float-right{
+    text-align: right;
+}
+.centered-overlay{
+    max-height: 500px;
+    max-width: 350px;
+    min-height: 500px;
+    min-width: 350px;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    font-family: 'imbplexserif';
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 500px;
+    vertical-align: middle;
+}
+.centered-overlay:hover{
+    background-color: rgba(0,0,0,.3);
+}
