@@ -88,7 +88,7 @@
   cursor : pointer;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+/* @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700"); */
 .container {
 margin: auto;
 padding: 0 1rem;
@@ -759,8 +759,12 @@ nav ul {
   -webkit-box-pack: end;
           justify-content: flex-end;
 }
+
 }
 @media screen and (max-width: 1024px) {
+  p {
+    text-align: center;
+  }
 .gallery-item:hover {
   -webkit-transform: none;
           transform: none;
