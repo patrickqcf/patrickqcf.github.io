@@ -1,6 +1,7 @@
 $( document ).ready(function() {
     init();
     $('.strongWhatsapp').click(function(){
+        $(window).scrollTop(0);
         $('#modal-whatsapp').modal('show');
     })
     $('.foodlink').click(function(event){
