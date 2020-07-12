@@ -2,8 +2,36 @@
   font-family: 'imbplexserif';
   src: url('font/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf') format('truetype');
 }  
+.contato{
+  margin-top: 40px;
+}
+.contatoArea textarea{
+  margin-top: 5px;
+}
+.contatoArea button{
+  margin-top: 24px;
+  margin-bottom: 141px;
+}
+.overlayContato{
+  filter: brightness(55%);
+}
+.contatoArea{
+  font-family: 'imbplexserif';
+}
+.contatoParent{
+  justify-content: center;
+}
+.emailEnviar{
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .strongWhatsapp{
   color: #25D366;
+  cursor : pointer;
+}
+.contato h5{
+  font-family: 'imbplexserif';
+  font-size: 11px;
 }
 .center{
   justify-content: center;

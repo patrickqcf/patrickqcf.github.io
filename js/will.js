@@ -1,5 +1,8 @@
 $( document ).ready(function() {
     init();
+    $('.strongWhatsapp').click(function(){
+        $('#modal-whatsapp').modal('show');
+    })
     $('.foodlink').click(function(event){
         event.preventDefault();
         initFoodGallery();
