@@ -16,16 +16,19 @@ $( document ).ready(function() {
 });
 
 function init(){
+    $(window).scrollTop(0);
     $('.home').show();
     $('.food-gallery').hide();
     $('.people-gallery').hide();
 }
 function initFoodGallery(){
+    $(window).scrollTop(0);
     $('.home').hide();
     $('.food-gallery').show();
     $('.people-gallery').hide();
 }
 function initPeopleGallery(){
+    $(window).scrollTop(0);
     $('.home').hide();
     $('.food-gallery').hide();
     $('.people-gallery').show();
