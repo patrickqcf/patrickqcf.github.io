@@ -2,6 +2,21 @@
   font-family: 'imbplexserif';
   src: url('font/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf') format('truetype');
 }  
+.strongWhatsapp{
+  color: #25D366;
+}
+.center{
+  justify-content: center;
+}
+.button-modal-whatsapp{
+  color: #818181;
+  border: 0.5px solid #818181!important;
+}
+.button-modal-whatsapp:hover{
+  text-align: center;
+  color: #6F87D4;
+  border: 0.5px solid #6F87D4!important;
+}
 .bodycontent{
   font-family: 'imbplexserif';
   border:none;

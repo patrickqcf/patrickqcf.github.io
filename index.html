@@ -31,10 +31,10 @@
                         <a class="nav-link navitemwill peoplelink" href="#">people</a>
                         </li>
                         <li class="nav-item ">
-                        <a class="nav-link navitemwill" href="#">contato</a>
+                        <a class="nav-link navitemwill contatolink" href="#">contato</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link navitemwillicon" href="#" target="_BLANK"><i class="fab fa-instagram navitemwillicon"></i></a>
+                        <a class="nav-link navitemwillicon" href="https://www.instagram.com/will.ardivino/" target="_BLANK"><i class="fab fa-instagram navitemwillicon"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -58,6 +58,22 @@
                 <div class="col-md-4 bodycontentpeople">
                     <img class ="img-fluid" src="assets/IMG_7764-Editar.jpg">
                     <div class="centered-overlay peoplelink">people</div>
+                </div>
+            </div>
+        </div>  
+      <div class="contato">
+            <div class="row">
+                <div class="col-md-4">
+                        <img class ="img-fluid" src="assets/IMG_6412.jpg">
+                </div>
+                <div class="col-md-4">
+                    <h3>Vamos bater um papo? ;)</h3>
+                    <textarea name="contatoNome" id="contatoNome" cols="45" rows="1" placeholder="seu nome"></textarea>
+                    <textarea name="contatoEmail" id="contatoEmail" cols="45" rows="1" placeholder="seu email"></textarea>
+                    <textarea name="contatoMensagem" id="contatoMensagem" cols="45" rows="4" placeholder="como posso ajudar?"></textarea>
+                    <br>
+                    <button type="button" class="btn button-modal-whatsapp emailEnviar">Enviar</button>
+                    <h5>Se preferir também estou no <strong class="strongWhatsapp">Whatsapp</strong>!</h5>
                 </div>
             </div>
         </div>  
@@ -131,6 +147,32 @@
                         <figure class="img-container">
                             <img class="gallery-item" src="https://observatoriog.bol.uol.com.br/wordpress/wp-content/uploads/2019/11/mia2-9308495.jpg">
                         </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-whatsapp" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header center">
+                                <h5 class="modal-title">Contato</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <input type="text" name="nome" id="nome" placeholder="seu nome">
+                            <br>
+                            <br>
+                            <textarea name="mensagem" id="mensagem" cols="45" rows="3" placeholder="como posso ajudar?"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer center">
+                        <button type="button" class="btn button-modal-whatsapp whatsappEnviar">Enviar</button>
+                        <button type="button" class="btn button-modal-whatsapp" data-dismiss="modal">Cancelar</button>
                     </div>
                 </div>
             </div>
