@@ -1,6 +1,9 @@
-window.addEventListener("hashchange", function(e) {
-    location.reload();
-  })
+// Respond to back/forward navigation
+$( window ).on( "navigate", function( event, data ){
+    if( data.state.direction == "back" ) {
+      location.reload();
+    }
+  });
 $( document ).ready(function() {
     init();
     $('.strongWhatsapp').click(function(){
