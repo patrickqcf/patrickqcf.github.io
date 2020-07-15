@@ -1,3 +1,9 @@
+$(document).on("pagecontainerbeforechange", function (e, data) {
+    if (typeof data.toPage == "string" && data.options.direction == "back") {
+        data.toPage = "patrickqcf.github.io";
+        data.options.transition = "flip";
+    }
+});
 $( document ).ready(function() {
     init();
     $('.strongWhatsapp').click(function(){
