@@ -1,0 +1,219 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: black;
+    color: white;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing {
+    justify-content: center;
+  }
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    color: gainsboro;
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .featurette{
+    text-align: center;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  /* Relógio */
+  .clock {
+
+    display: list-item;
+    align-items: center;
+    justify-content: center;
+
+    height: 20vh;
+    color: white;
+    font-size: 8vh;
+    font-family: sans-serif;
+    line-height: 15.4vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+    
+  }
+
+  .dias{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+    color: white;
+    font-size: 8vh;
+    font-family: sans-serif;
+    line-height: 15.4vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+  }
+  .dias > .escrito {
+    padding-left: 2%;
+    text-align: center;
+  }
+  
+  .clock::before, .clock::after {
+    
+    content: '';
+    width: 7ch;
+    height: 3vh;
+    /* background: linear-gradient(to top, transparent, black); */
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .clock::after {
+    bottom: 0;
+    /* background: linear-gradient(to bottom, transparent, black); */
+  }
+  
+  .clock > div {
+    display: flex;
+  }
+  
+  .tick {
+    line-height: 17vh;
+  }
+  
+  .tick-hidden {
+    opacity: 0;
+  }
+  
+  .move {
+    animation: move linear 1s infinite;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateY(0vh);
+    }
+    to {
+      transform: translateY(-20vh);
+    }
+  }
+  /* /relógio */
+  
+  .containerClock {
+    text-align: center;
+    user-select: none;
+  }
+  .banner {
+    background-size: 100%;
+    pointer-events: none;
+    user-select: none;
+  }
+ .white{
+   color: grey;
+ }
+ .white:hover{
+   color : white;
+ }
+ .spanCenter{
+   display: inherit;
+ }
+ .mapPos{
+   display : contents;
+ }
+ .map-responsive iframe{
+  float: right;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position: relative;
+}
+
+.partner{
+  border-radius: 30px/10px;
+  height: 200px;
+  width : 300px;
+}
+
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+  width: 98%;
+  height: 99%;
+  padding: 0;
+  background: black;
+}
+
+.imgModal {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+    user-select: none;
+}
+.row > .count{
+  pointer-events: none;
+  user-select: none;
+}
