@@ -5,7 +5,7 @@ setTimeout(function () {
 }, 4500);
 
 $( document ).ready(function() {
-var countDownDate = new Date("Oct 26, 2021 00:00:00").getTime();
+var countDownDate = new Date("Oct 28, 2023 16:00:00").getTime();
 
 var contador = setInterval(function() {
 
@@ -37,12 +37,12 @@ var contador = setInterval(function() {
     $('.dia1').html(days.toString().substring(0,1));
     $('.dia2').html(days.toString().substring(1,2));
     $('.diasDescricao').html(diaDesc);
-  } else if( days.toString().substr(0,2) == "0-" || days.toString() == "NaN"){
+  } else if( days.toString().substr(0,2) == "0-" || days.toString() == "NaN" || days.toString() == '00'){
     $('.diasDescricao').hide();
   } else {
     diaDesc = 'DIAS'
     $('.dia1').html(days.toString().substring(0,1));
-    $('.dia2').html(days.toString().substring(1,2));
+    $('.dia2').html(days.toString().substring(1,3));
     $('.diasDescricao').html(diaDesc);
   }
 
@@ -56,6 +56,16 @@ var contador = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(contador);
+    $('.dia1').hide();
+    $('.dia2').hide();
+    $('.diasDescricao').hide();
+    $('.hora1').hide();
+    $('.hora2').hide();
+    $('.minuto1').hide();
+    $('.minuto2').hide();
+    $('.segundo1').hide();
+    $('.segundo2').hide();
+    $('.tick').hide();
   }
 }, 1000);
 
